@@ -1,3 +1,244 @@
-<p>
-    hhhh
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: black;
+}
+
+/* Style the header */
+header {
+  background-image: url(Wallpaper.jpg);
+  padding: 30px;
+  background-size: auto;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  background-color: bisque;
+  background-repeat: none;
+  padding: 4%;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-image: url(role.jpg);
+  background-position-x: center;
+  background-attachment: fixed;
+
+  color: rgb(255, 255, 255);
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table, th, td{
+    border: 2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    border-radius: 10px;
+    float: center;
+    text-align: center;
+}
+th,td{
+    background-color: rgb(115, 190, 240);
+    text-align: center;
+}
+
+/* Style the footer */
+footer {
+  background-image: url(Wallpaper.jpg);
+  background-position: 25cm;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Selamat Datang Juara</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://valorant.fandom.com/wiki/Agents/Duelists">Duelist</a></li>
+      <br>
+      <li><a href="https://gameriv.com/valorant-all-the-smoke-agents-smoke-durations-and-best-smoker/">Smoker</a></li>
+      <br>
+      <li><a href="https://valorant.fandom.com/wiki/Agents/Sentinels">Sentinel</a></li>
+      <br>
+      <li><a href="https://valorant.fandom.com/wiki/Agents/Initiators">Initiator</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Kelas</h1>
+    <p>Valorant terdapat empat buah kelas yaitu Duelist, Controller, Initiator, dan sentinel</p>
+    <p>Didalam empat kelas tersebut terdapat 21 agen yang berbeda-beda. Berikut agen-agen Valorant:</p>
+  </article>
+</section>
+
+<h2 style="text-align: center; color: aqua;">
+    Agen Valorant
+</h2>
+<table align="center">
+    <tr>
+      <th>Agent</th>
+      <th>Nama</th>
+      <th>Kelas</th>
+    </tr>
+    <tr>
+      <td><img src="brimstone.jpg" alt="Brimstone"></td>
+      <td>Brimstone</td>
+      <td>Controller</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Phoenix</td>
+      <td>Duelist</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Sage</td>
+      <td>Sentinel</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Sova</td>
+      <td>Initiator</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Viper</td>
+      <td>Controller</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Cypher</td>
+      <td>Sentinel</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Reyna</td>
+      <td>Duelist</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Killjoy</td>
+      <td>Sentinel</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Breach</td>
+      <td>Initiator</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Omen</td>
+      <td>Controller</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Jet</td>
+      <td>Duelist</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Raze</td>
+      <td>Duelist</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Skye</td>
+      <td>Initiator</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Yoru</td>
+      <td>Duelist</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Astre</td>
+      <td>Controller</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>KAY/O</td>
+      <td>Initiator</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Chamber</td>
+      <td>Sentinel</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Neon</td>
+      <td>Duelist</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Fade</td>
+      <td>Initiator</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Harbor</td>
+      <td>Controller</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Gekko</td>
+      <td>Initiator</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Deadlock</td>
+      <td>Sentinel</td>
+    </tr>
+  </table>
+
+<footer>
+  <p>Follow more<br>
+
+    </p>
+</footer>
+
+</body>
+</html>
